@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b74ae7be-fb60-4b5f-ae41-26c4c4ffb169" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YhxVQdieOqocObnCGehcA4A7Hg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Polymorphism" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\liberi\courses\2year\RCA_JAVA\OOP\Polymorphism" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Polymorphism" type="Application" factoryName="Application" singleton="false">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <module name="OOP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Polymorphism" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b74ae7be-fb60-4b5f-ae41-26c4c4ffb169" name="Default Changelist" comment="" />
+      <created>1583408652332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583408652332</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="400" y="38" key="#OOP" timestamp="1583487847114">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="400" y="38" key="#OOP/0.0.1366.768@0.0.1366.768" timestamp="1583487847114" />
+    <state x="400" y="38" key="#Polymorphism" timestamp="1583487937685">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="400" y="38" key="#Polymorphism/0.0.1366.768@0.0.1366.768" timestamp="1583487937685" />
+    <state x="294" y="45" width="816" height="682" key="#Project_Structure" timestamp="1583408696611">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="294" y="45" width="816" height="682" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1583408696611" />
+    <state x="400" y="38" key="#Unnamed" timestamp="1583487779420">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="400" y="38" key="#Unnamed/0.0.1366.768@0.0.1366.768" timestamp="1583487779420" />
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583487767369">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1583487767369" />
+    <state x="412" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583487918460">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="412" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1583487918460" />
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1583487954592">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1583487954592" />
+    <state width="1322" height="192" key="GridCell.Tab.0.bottom" timestamp="1583487956113">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583487956113" />
+    <state width="1322" height="192" key="GridCell.Tab.0.center" timestamp="1583487956113">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583487956113" />
+    <state width="1322" height="192" key="GridCell.Tab.0.left" timestamp="1583487956113">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583487956113" />
+    <state width="1322" height="192" key="GridCell.Tab.0.right" timestamp="1583487956113">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583487956113" />
+    <state x="184" y="26" key="SettingsEditor" timestamp="1583409276941">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583409276941" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1583487558289">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583487558289" />
+  </component>
+</project>
