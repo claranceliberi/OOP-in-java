@@ -46,7 +46,7 @@ public class ExtendThread extends Thread {
 
     public void run(){
         for(int i=0; i< getNumber(); i++){
-            System.out.println("inside thread "+ this.getName() + " : " + getNumber() + " => " + i);
+            System.out.println("inside thread "+ this.getThreadName() + " : " + getNumber() + " => " + i);
         }
     }
 }
