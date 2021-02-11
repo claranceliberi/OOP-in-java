@@ -1,22 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b74ae7be-fb60-4b5f-ae41-26c4c4ffb169" name="Default Changelist" comment="" />
+    <list default="true" id="b74ae7be-fb60-4b5f-ae41-26c4c4ffb169" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Multhreading/ThreadRunner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YhxVQdieOqocObnCGehcA4A7Hg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Polymorphism" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -24,14 +38,28 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\liberi\courses\2year\RCA_JAVA\OOP\src" />
       <recent name="C:\Users\user\Documents\liberi\courses\2year\RCA_JAVA\OOP\Polymorphism" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ThreadRunner">
     <configuration name="Polymorphism" type="Application" factoryName="Application" singleton="false">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <module name="OOP" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Polymorphism" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multhreading.ThreadRunner" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multhreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -47,7 +75,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThreadRunner" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -58,8 +92,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583408652332</updated>
+      <workItem from="1613050704144" duration="297000" />
     </task>
+    <task id="LOCAL-00001" summary="using src as root project folder">
+      <created>1613050851388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613050851388</updated>
+    </task>
+    <task id="LOCAL-00002" summary="creating thread">
+      <created>1613050932010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613050932010</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="using src as root project folder" />
+    <MESSAGE value="creating thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating thread" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="38" key="#OOP" timestamp="1583487847114">

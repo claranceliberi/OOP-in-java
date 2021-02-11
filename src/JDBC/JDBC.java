@@ -1,4 +1,4 @@
-package com.company;
+package JDBC;
 
 import java.sql.*;
 

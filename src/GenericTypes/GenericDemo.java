@@ -1,3 +1,5 @@
+package GenericTypes;
+
 public class GenericDemo {
     public static void main(String[] args) throws Exception{
         Person <Integer, String> p1 = new Person<Integer, String>(32, 173, "Ntwari clarance");

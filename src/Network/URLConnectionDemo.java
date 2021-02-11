@@ -1,4 +1,4 @@
-package com.company;
+package Network;
 
 import java.io.InputStream;
 import java.net.URL;

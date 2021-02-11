@@ -1,9 +1,10 @@
+package Collections;
 import java.util.*;
 
 public class CollectionDemo{
     public static void main(String[] args){
 
-//        initialize collection type of Person
+//        initialize collection type of abstraction.Person
         List <Person> persons = new ArrayList<Person>();
 
         //        adding elements on array
@@ -17,7 +18,7 @@ public class CollectionDemo{
         //loop in a list using standard for loop
         for(int i=0; i < persons.size(); i++){
             Person p = persons.get(i);
-            System.out.println("Person " + p.getName());
+            System.out.println("abstraction.Person " + p.getName());
         }
         // loop in list using this mode
         for(Person p:persons){

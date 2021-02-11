@@ -1,4 +1,4 @@
-package com.company;
+package crud.company;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

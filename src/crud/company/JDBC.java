@@ -1,3 +1,5 @@
+package crud.company;
+
 import java.sql.*;
 
 public class JDBC {

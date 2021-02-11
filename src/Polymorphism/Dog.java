@@ -1,22 +1,23 @@
-class Dog{
-
-    class Dog extends Animal {
+package Polymorphism;
 
 
-        private String tail;
-        private String eyeColor;
+class Dog extends Animal {
 
 
-        public Dog (){
-            super("", 4, "carnive", "woooo");
-            super.setFoodType("ddsd");
-        }
+    private String tail;
+    private String eyeColor;
 
-        public Dog(String name, int age, String foodType, String sound, String eyeColor, String tail){
-            super(name, age, foodType, sound);
-            this.eyeColor = eyeColor;
-            this.tail = tail;
-        }
+
+    public Dog (){
+        super("", 4, "carnive", "woooo");
+        super.setFoodType("ddsd");
+    }
+
+    public Dog(String name, int age, String foodType, String sound, String eyeColor, String tail){
+        super(name, age, foodType, sound);
+        this.eyeColor = eyeColor;
+        this.tail = tail;
+    }
 //
 //    public Dog(String foodType){
 //        super("BullDog", 4, foodType, "Bark");
@@ -29,27 +30,26 @@ class Dog{
 //        super("BullDog", age, "", "Bark");
 //    }
 
-        public String getTail() {
-            return tail;
-        }
-
-
-        public void setTail(String tail) {
-            this.tail = tail;
-        }
-
-        public String getEyeColor() {
-            return eyeColor;
-        }
-
-        public void setEyeColor(String eyeColor) {
-            this.eyeColor = eyeColor;
-        }
-
-        public String bark(String sound) {
-            this.setSound(sound);
-            return this.getSound();
-        }
-
+    public String getTail() {
+        return tail;
     }
+
+
+    public void setTail(String tail) {
+        this.tail = tail;
+    }
+
+    public String getEyeColor() {
+        return eyeColor;
+    }
+
+    public void setEyeColor(String eyeColor) {
+        this.eyeColor = eyeColor;
+    }
+
+    public String bark(String sound) {
+        this.setSound(sound);
+        return this.getSound();
+    }
+
 }

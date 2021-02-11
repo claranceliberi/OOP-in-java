@@ -1,3 +1,5 @@
+package composition;
+
 class Bike{
     //decraling data members and methods
     private String color;

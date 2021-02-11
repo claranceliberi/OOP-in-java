@@ -1,3 +1,5 @@
+package Que;
+
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class LinkedLIstBlockingQue {
