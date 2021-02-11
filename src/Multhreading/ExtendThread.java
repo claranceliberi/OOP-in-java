@@ -38,10 +38,10 @@ public class ExtendThread extends Thread {
     }
 
     public void start(){
-        if(th == null){
+//        if(th == null){
             th = new Thread(this,"Test");
             th.start();
-        }
+//        }
     }
 
     public void run(){
