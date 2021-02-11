@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b74ae7be-fb60-4b5f-ae41-26c4c4ffb169" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Multhreading/ThreadRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multhreading/ExtendThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multhreading/ExtendThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multhreading/ThreadRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multhreading/ThreadRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\liberi\courses\2year\RCA_JAVA\OOP\src\Network" />
       <recent name="F:\liberi\courses\2year\RCA_JAVA\OOP\src" />
       <recent name="C:\Users\user\Documents\liberi\courses\2year\RCA_JAVA\OOP\Polymorphism" />
     </key>
@@ -64,13 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,7 +121,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583408652332</updated>
-      <workItem from="1613050704144" duration="297000" />
+      <workItem from="1613050704144" duration="2583000" />
+      <workItem from="1613053500571" duration="1063000" />
     </task>
     <task id="LOCAL-00001" summary="using src as root project folder">
       <created>1613050851388</created>
@@ -108,7 +138,42 @@
       <option name="project" value="LOCAL" />
       <updated>1613050932010</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="make package based small projects">
+      <created>1613051707036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613051707036</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ignoring output folder">
+      <created>1613051766949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613051766949</updated>
+    </task>
+    <task id="LOCAL-00005" summary="using Runnable method">
+      <created>1613052327048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613052327048</updated>
+    </task>
+    <task id="LOCAL-00006" summary="using Runnable method">
+      <created>1613052425046</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613052425046</updated>
+    </task>
+    <task id="LOCAL-00007" summary="using Runnable method">
+      <created>1613053309159</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613053309159</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,69 +184,57 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="using src as root project folder" />
     <MESSAGE value="creating thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating thread" />
+    <MESSAGE value="make package based small projects" />
+    <MESSAGE value="ignoring output folder" />
+    <MESSAGE value="using Runnable method" />
+    <option name="LAST_COMMIT_MESSAGE" value="using Runnable method" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="400" y="38" key="#OOP" timestamp="1583487847114">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1613052096880">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="400" y="38" key="#OOP/0.0.1366.768@0.0.1366.768" timestamp="1583487847114" />
-    <state x="400" y="38" key="#Polymorphism" timestamp="1583487937685">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1613052096880" />
+    <state width="1493" height="348" key="GridCell.Tab.0.bottom" timestamp="1613053960795">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="400" y="38" key="#Polymorphism/0.0.1366.768@0.0.1366.768" timestamp="1583487937685" />
-    <state x="294" y="45" width="816" height="682" key="#Project_Structure" timestamp="1583408696611">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1493" height="348" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1613053960795" />
+    <state width="1493" height="348" key="GridCell.Tab.0.center" timestamp="1613053960795">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="294" y="45" width="816" height="682" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1583408696611" />
-    <state x="400" y="38" key="#Unnamed" timestamp="1583487779420">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1493" height="348" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1613053960795" />
+    <state width="1493" height="348" key="GridCell.Tab.0.left" timestamp="1613053960780">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="400" y="38" key="#Unnamed/0.0.1366.768@0.0.1366.768" timestamp="1583487779420" />
-    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583487767369">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1493" height="348" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1613053960780" />
+    <state width="1493" height="348" key="GridCell.Tab.0.right" timestamp="1613053960795">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1583487767369" />
-    <state x="412" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583487918460">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1493" height="348" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1613053960795" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1613052495975">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="412" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1583487918460" />
-    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1583487954592">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1583487954592" />
-    <state width="1322" height="192" key="GridCell.Tab.0.bottom" timestamp="1583487956113">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1322" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583487956113" />
-    <state width="1322" height="192" key="GridCell.Tab.0.center" timestamp="1583487956113">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1322" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583487956113" />
-    <state width="1322" height="192" key="GridCell.Tab.0.left" timestamp="1583487956113">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1322" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583487956113" />
-    <state width="1322" height="192" key="GridCell.Tab.0.right" timestamp="1583487956113">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1322" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583487956113" />
-    <state x="184" y="26" key="SettingsEditor" timestamp="1583409276941">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583409276941" />
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1583487558289">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583487558289" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1613052495975" />
   </component>
 </project>
