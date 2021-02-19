@@ -9,14 +9,13 @@ public class GreetingServer extends Thread {
 
     public GreetingServer(int port) throws IOException {
         serverSocket = new ServerSocket(port);
-        serverSocket.setSoTimeout(10000);
+//        serverSocket.setSoTimeout(10000);
     }
 
     public void run() {
         while(true) {
             try {
-                System.out.println("Waiting for client on port " +
-                        serverSocket.getLocalPort() + "...");
+                System.out.println("Waiting for client on port " + serverSocket.getLocalPort() + "...");
                 Socket server = serverSocket.accept();
 
                 System.out.println("Just connected to " + server.getRemoteSocketAddress());
@@ -24,7 +23,7 @@ public class GreetingServer extends Thread {
 
                 System.out.println(in.readUTF());
                 DataOutputStream out = new DataOutputStream(server.getOutputStream());
-                out.writeUTF("Thank you for connecting to " + server.getLocalSocketAddress()
+                out.writeUTF("\tThank you for connecting to " + server.getLocalSocketAddress()
                         + "\nGoodbye!");
                 server.close();
 
