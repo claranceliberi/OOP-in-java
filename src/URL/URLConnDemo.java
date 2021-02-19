@@ -18,13 +18,12 @@ public class URLConnDemo {
                 return;
             }
 
-            BufferedReader in = new BufferedReader(
-                    new InputStreamReader(connection.getInputStream()));
-            String urlString = "";
+            BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            StringBuilder urlString = new StringBuilder();
             String current;
 
             while((current = in.readLine()) != null) {
-                urlString += current;
+                urlString.append(current);
             }
             System.out.println(urlString);
         } catch (IOException e) {
