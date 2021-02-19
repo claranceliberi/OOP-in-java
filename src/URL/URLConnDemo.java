@@ -8,7 +8,7 @@ public class URLConnDemo {
 
     public static void main(String [] args) {
         try {
-            URL url = new URL("https://www.amrood.com");
+            URL url = new URL("https://www.google.com/");
             URLConnection urlConnection = url.openConnection();
             HttpURLConnection connection = null;
             if(urlConnection instanceof HttpURLConnection) {
