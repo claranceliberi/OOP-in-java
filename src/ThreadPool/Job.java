@@ -30,7 +30,7 @@ public class Job implements Runnable{
             }
 
             System.out.println("Completed thread: " + getName() + " now: " + LocalDateTime.now().toString());
-
+            System.out.println("\n\n\n");
         }catch(Exception e ){
             System.out.println(e.getMessage());
         }
