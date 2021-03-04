@@ -2,6 +2,8 @@ package GUI.LayoutDemo;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
@@ -11,6 +13,7 @@ public class LayoutDemo {
     private JPanel panelTwo;
     private JTextField firstName;
     private JTextField secondName;
+    private JLabel footer;
 
 
     public LayoutDemo(){
@@ -23,6 +26,7 @@ public class LayoutDemo {
         panelTwo  = new JPanel();
         firstName = new JTextField("First name");
         secondName = new JTextField("Second name");
+        footer = new JLabel("system");
 
 //        panelOne.setLayout(new BoxLayout(panelOne,BoxLayout.X_AXIS));
         panelOne.setLayout(new FlowLayout());
@@ -47,7 +51,7 @@ public class LayoutDemo {
         panelOne.add(submit);
         panelOne.add(cancel);
         
-        
+        panelTwo.add(footer);
 
         mainWindow.add(panelOne);
         mainWindow.add(panelTwo);
@@ -61,10 +65,34 @@ public class LayoutDemo {
             }
         });
 
+
+        submit.addActionListener(new FunctionButtonListener());
+
+        submit.setActionCommand("save01");
+
         mainWindow.setVisible(true);
+    }
+
+
+    public class FunctionButtonListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            String actionCommand = e.getActionCommand();
+            System.out.println(actionCommand + " Received");
+
+            if(actionCommand.equals("save01"))
+                footer.setText("saving form");
+            else if(actionCommand.equals("clear"))
+                System.out.println("We are clearing form");
+        }
+
+
     }
 
     public static void main(String[] args) {
         LayoutDemo demo = new LayoutDemo();
     }
+
+
 }
+
