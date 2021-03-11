@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b74ae7be-fb60-4b5f-ae41-26c4c4ffb169" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Syncronisation/FirstMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/JTableDemo/JTableDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="614" />
+    <option name="totalTimeSeconds" value="12409" />
+    <option name="gitIntegration" value="true" />
+    <option name="naggedAbout" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,7 +63,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../MY/projects/class_c/chat_system" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -75,14 +77,13 @@
       <recent name="C:\Users\user\Documents\liberi\courses\2year\RCA_JAVA\OOP\Polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Multiplication">
-    <configuration name="GreetingClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.GreetingClient" />
+  <component name="RunManager" selected="Application.JTableDemo">
+    <configuration name="HelloGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.HelloGui.HelloGui" />
       <module name="OOP" />
-      <option name="PROGRAM_PARAMETERS" value="localhost 6066" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.*" />
+          <option name="PATTERN" value="GUI.HelloGui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,13 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreetingServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.GreetingServer" />
+    <configuration name="JTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.JTableDemo.JTableDemo" />
       <module name="OOP" />
-      <option name="PROGRAM_PARAMETERS" value="6066" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.*" />
+          <option name="PATTERN" value="GUI.JTableDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Syncronisation.Multiplication" />
+    <configuration name="LayoutDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.LayoutDemo.LayoutDemo" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Syncronisation.*" />
+          <option name="PATTERN" value="GUI.LayoutDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLConnDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URL.URLConnDemo" />
+    <configuration name="PoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadPool.PoolDemo" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="URL.*" />
+          <option name="PATTERN" value="ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URL.URLDemo" />
+    <configuration name="Synchronization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Syncronisation.Synchronization" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="URL.*" />
+          <option name="PATTERN" value="Syncronisation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,32 +151,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Polymorphism" />
-      <item itemvalue="Application.GreetingServer" />
-      <item itemvalue="Application.GreetingClient" />
-      <item itemvalue="Application.URLDemo" />
-      <item itemvalue="Application.URLConnDemo" />
-      <item itemvalue="Application.Multiplication" />
+      <item itemvalue="Application.Synchronization" />
+      <item itemvalue="Application.PoolDemo" />
+      <item itemvalue="Application.HelloGui" />
+      <item itemvalue="Application.LayoutDemo" />
+      <item itemvalue="Application.JTableDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Multiplication" />
-        <item itemvalue="Application.URLConnDemo" />
-        <item itemvalue="Application.URLDemo" />
-        <item itemvalue="Application.GreetingClient" />
-        <item itemvalue="Application.GreetingServer" />
+        <item itemvalue="Application.JTableDemo" />
+        <item itemvalue="Application.LayoutDemo" />
+        <item itemvalue="Application.HelloGui" />
+        <item itemvalue="Application.PoolDemo" />
+        <item itemvalue="Application.Synchronization" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +199,13 @@
       <workItem from="1613108965980" duration="1590000" />
       <workItem from="1613706928519" duration="2928000" />
       <workItem from="1613798891746" duration="1440000" />
-      <workItem from="1614257277957" duration="706000" />
+      <workItem from="1614257277957" duration="3074000" />
+      <workItem from="1614261775479" duration="1856000" />
+      <workItem from="1614319205473" duration="5603000" />
+      <workItem from="1614861457758" duration="5836000" />
+      <workItem from="1614887458702" duration="145000" />
+      <workItem from="1615467308494" duration="239000" />
+      <workItem from="1615467641288" duration="2789000" />
     </task>
     <task id="LOCAL-00001" summary="using src as root project folder">
       <created>1613050851388</created>
@@ -346,7 +354,63 @@
       <option name="project" value="LOCAL" />
       <updated>1614257837941</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="First multiplication">
+      <created>1614258251956</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1614258251956</updated>
+    </task>
+    <task id="LOCAL-00023" summary="SecondMultiplication multiplication">
+      <created>1614258307364</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1614258307364</updated>
+    </task>
+    <task id="LOCAL-00024" summary="making method syncronized">
+      <created>1614262769628</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1614262769628</updated>
+    </task>
+    <task id="LOCAL-00025" summary="implementing syncronization">
+      <created>1614262798334</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1614262798334</updated>
+    </task>
+    <task id="LOCAL-00026" summary="job class">
+      <created>1614322373119</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1614322373119</updated>
+    </task>
+    <task id="LOCAL-00027" summary="making pool">
+      <created>1614322707829</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1614322707830</updated>
+    </task>
+    <task id="LOCAL-00028" summary="making form">
+      <created>1614864700020</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1614864700020</updated>
+    </task>
+    <task id="LOCAL-00029" summary="making form">
+      <created>1614874261264</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1614874261264</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,52 +459,68 @@
     <MESSAGE value="using string builder" />
     <MESSAGE value="using google connection" />
     <MESSAGE value="Multiplication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multiplication" />
+    <MESSAGE value="First multiplication" />
+    <MESSAGE value="SecondMultiplication multiplication" />
+    <MESSAGE value="making method syncronized" />
+    <MESSAGE value="implementing syncronization" />
+    <MESSAGE value="job class" />
+    <MESSAGE value="making pool" />
+    <MESSAGE value="making form" />
+    <option name="LAST_COMMIT_MESSAGE" value="making form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613707849995">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1613707849995" />
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1613109479217">
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1615469108035">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1613109479217" />
-    <state width="1493" height="331" key="GridCell.Tab.0.bottom" timestamp="1613711313496">
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/-1366.147.1366.768@0.0.1536.864" timestamp="1614863146141" />
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1615469108035" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1614887672314">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="331" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1613711313496" />
-    <state width="1493" height="331" key="GridCell.Tab.0.center" timestamp="1613711313496">
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1614887672314" />
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1615470205381">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="331" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1613711313496" />
-    <state width="1493" height="331" key="GridCell.Tab.0.left" timestamp="1613711313495">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.864/-1366.147.1366.768@0.0.1536.864" timestamp="1614866490360" />
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1615470205381" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1615470205381">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="331" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1613711313495" />
-    <state width="1493" height="331" key="GridCell.Tab.0.right" timestamp="1613711313496">
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.864/-1366.147.1366.768@0.0.1536.864" timestamp="1614866490359" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1615470205381" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1615470205381">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="331" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1613711313496" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1613707823635">
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.864/-1366.147.1366.768@0.0.1536.864" timestamp="1614866490359" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1615470205381" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1615470205381">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1613707823635" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1613707823635">
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.864/-1366.147.1366.768@0.0.1536.864" timestamp="1614866490360" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1615470205381" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1614257740060">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1613707823635" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1613707823634">
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614257740060" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1614257740060">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1613707823634" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1613707823635">
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1614257740060" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1614257740060">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1613707823635" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1613711416099">
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1614257740060" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1614257740060">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1613711416099" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1614257740060" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1614266229223">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614266229223" />
   </component>
 </project>
