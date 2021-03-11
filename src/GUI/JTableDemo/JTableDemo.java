@@ -85,7 +85,6 @@ public class JTableDemo {
 
                 for (int row : rows) {
                     for (int column : columns) {
-                        System.out.println(row + "_" + column);
                         System.out.println("Selected value: " + table.getValueAt(row,column));
                     }
                 }
